@@ -4,8 +4,8 @@
             <div class="row">
                 <div v-for="(item, index) in galeria" :key="index" class="col-sm-4">
                     <div class="conteudo margin-conteudo">
-                        <img class="imagem img-responsive fit-image" :src="item.imagem" alt="Raca" />
-                        <div class="box box-width">
+                        <img class="imagem img-responsive fit fit-image" :src="item.imagem" alt="Raca" />
+                        <div class="box">
                             <p class="texto" :class="[item.fonte, item.cor]">{{ item.nome }}</p>
                         </div>
                     </div>
@@ -29,19 +29,13 @@ export default {
 </script>
 
 <style scoped>
-.fit-image {
-    width: 100%;
-    object-fit: cover;
+.fit {
     height: 300px;
 }
 
 .margin-conteudo {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.box-width {
-     width: 50%;
 }
 
 @media only screen and (max-width: 991px) {

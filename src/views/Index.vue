@@ -1,6 +1,6 @@
 <template>
     <div>
-        <br>
+        <br />
         <section class="container">
             <form @submit.prevent="salvar()">
                 <div class="row">
@@ -46,10 +46,12 @@
         </section>
         <br />
         <section v-show="raca" class="container">
-            <div class="conteudo">
-                <img class="image-size imagem" :src="imagem" alt="Raca" />
-                <div class="box box-width">
-                    <p class="texto" :class="[fonte, cor]">{{ nome }}</p>
+            <div id="moldura">
+                <div class="conteudo">
+                    <img class="image-size imagem fit fit-image" :src="imagem" alt="Raca" />
+                    <div class="box">
+                        <p class="texto" :class="[fonte, cor]">{{ nome }}</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -150,12 +152,14 @@ export default {
 </script>
 
 <style scoped>
-.image-size {
-    max-width: 500px;
-    max-height: 500px;
+#moldura {
+    width: 500px;
+    height: 500px;
+    margin: auto;
 }
 
-.box-width {
-     width: 20%;
+.fit {
+    height: 400px;
 }
+
 </style>

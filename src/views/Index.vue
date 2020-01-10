@@ -154,7 +154,6 @@ export default {
 <style scoped>
 #moldura {
     width: 500px;
-    height: 500px;
     margin: auto;
 }
 

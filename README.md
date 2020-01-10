@@ -9,7 +9,7 @@ App construído com o framework Vue.js.
 * Documentação Dog API: [Dog API](https://dog.ceo/dog-api/).
 * Documentação do VUE: [Vue.js](https://br.vuejs.org/v2/guide/index.html).
 
- - A tela principal (Início) exibe
+ ### A tela principal (Início) exibe
 
 * Select com as raças;
 * Input para usuário inserir o nome do cachorro;
@@ -19,7 +19,7 @@ App construído com o framework Vue.js.
 * Botão salvar para armazenar em local storage as informações selecionadas pelo usuário + Data e Horário.
 * Uma mensagem de sucesso quando um item é salvo.
 
-- A tela secundária (Galeria) contém
+### A tela secundária (Galeria) contém
 
 * Todos itens salvos pelo usuário
 

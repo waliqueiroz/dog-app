@@ -1,0 +1,43 @@
+.baloo-bhai {
+    font-family: "Baloo Bhai", cursive;
+}
+.pacifico {
+    font-family: "Pacifico", cursive;
+}
+.shadows-into-light {
+    font-family: "Shadows Into Light", cursive;
+}
+.abril-fatface {
+    font-family: "Abril Fatface", cursive;
+}
+.amatic-sc {
+    font-family: "Amatic SC", cursive;
+}
+
+.texto {
+    font-size: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conteudo {
+    text-align: center;
+    position: relative;
+}
+
+.box {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+}
+
+.imagem {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

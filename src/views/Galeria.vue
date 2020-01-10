@@ -8,6 +8,7 @@
                         <div class="box">
                             <p class="texto" :class="[item.fonte, item.cor]">{{ item.nome }}</p>
                         </div>
+                        <p class="text-center"><b>{{ item.data }}</b></p>
                     </div>
                 </div>
             </div>
@@ -39,14 +40,13 @@ export default {
 }
 
 @media only screen and (max-width: 991px) {
-  .texto {
-     font-size: 25px !important;
-  }
+    .texto {
+        font-size: 25px !important;
+    }
 }
 @media only screen and (max-width: 767px) {
-  .texto {
-     font-size: 18px !important;
-  }
+    .texto {
+        font-size: 18px !important;
+    }
 }
-
 </style>

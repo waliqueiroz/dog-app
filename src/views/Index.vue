@@ -138,7 +138,7 @@ export default {
         },
         salvar() {
             const { imagem, nome, fonte, cor } = this;
-            const dados = { imagem, nome, fonte, cor };
+            const dados = { imagem, nome, fonte, cor, data: new Date().toLocaleString() };
             this.galeria.push(dados);
             window.localStorage.setItem("@galeria", JSON.stringify(this.galeria));
             this.$swal({

@@ -16,12 +16,12 @@ App construído com o framework Vue.js.
 * Select para selecionar a cor da fonte;
 * Select com as opções de fonte (Google Fonts);
 * Imagem do cachorro selecionado com o texto por cima com a fonte e cor selecionada;
-* Botão salvar para armazenar em local storage as informações selecionadas pelo usuário + Data e Horário.
+* Botão salvar para armazenar em local storage as informações selecionadas pelo usuário + Data e Horário;
 * Uma mensagem de sucesso quando um item é salvo.
 
 ### A tela secundária (Galeria) contém
 
-* Todos itens salvos pelo usuário
+* Todos itens salvos pelo usuário.
 
 ## 1. Pré-requisitos para execução do projeto
 

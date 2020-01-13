@@ -3,15 +3,15 @@
         <section class="container">
             <div class="row">
                 <div v-for="(item, index) in galeria" :key="index" class="col-sm-4">
-                    <div class="conteudo margin-conteudo">
+                    <figure class="conteudo margin-conteudo">
                         <img class="imagem img-responsive fit fit-image" :src="item.imagem" alt="Raca" />
                         <div class="box">
                             <p class="texto" :class="[item.fonte, item.cor]">{{ item.nome }}</p>
                         </div>
-                        <p class="text-center">
+                        <figcaption class="text-center">
                             {{ item.data }}
-                        </p>
-                    </div>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>

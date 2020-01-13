@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-sm-2 align-self-end">
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block">Salvar</button>
+                            <button type="submit" class="btn btn-success btn-block">Salvar</button>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
         <section v-show="raca" class="container">
             <div id="moldura">
                 <div class="conteudo">
-                    <img class="image-size imagem fit fit-image" :src="imagem" alt="Raca" />
+                    <img class="imagem fit fit-image" :src="imagem" alt="Raca" />
                     <div class="box">
                         <p class="texto" :class="[fonte, cor]">{{ nome }}</p>
                     </div>

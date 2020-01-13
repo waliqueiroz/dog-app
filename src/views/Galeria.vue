@@ -8,7 +8,9 @@
                         <div class="box">
                             <p class="texto" :class="[item.fonte, item.cor]">{{ item.nome }}</p>
                         </div>
-                        <p class="text-center"><b>{{ item.data }}</b></p>
+                        <p class="text-center">
+                            {{ item.data }}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -32,6 +34,12 @@ export default {
 <style scoped>
 .fit {
     height: 300px;
+}
+
+.text-center {
+    color: #616161;
+    font-style: italic;
+    font-size: smaller;    
 }
 
 .margin-conteudo {

@@ -14,6 +14,10 @@
     font-family: "Amatic SC", cursive;
 }
 
+body {
+    background-color: #F9F9F9;
+}
+
 .texto {
     font-size: 33px;
     position: absolute;
@@ -40,7 +44,11 @@
 }
 
 .imagem {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .fit-image {
